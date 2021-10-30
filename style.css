@@ -1,0 +1,23 @@
+.jumbotron{
+    width: 1024px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Tablet View */
+@media (max-width: 800px){
+    .jumbotron{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* mobile */
+@media (max-width: 500px){
+    .jumbotron{
+        width: 300px;
+       
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
